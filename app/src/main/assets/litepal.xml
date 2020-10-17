@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Plant"></dbname>
+    <version  value="4"></version>
+    <list>
+        <mapping class="com.example.mypotplant.maintenance.Plant"></mapping>
+        <mapping class="com.example.mypotplant.notification.maintainNotification.MaintainNotifi"></mapping>
+    </list>
+</litepal>

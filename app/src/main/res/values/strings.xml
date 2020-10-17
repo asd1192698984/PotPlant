@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyPotPlant</string>
+    <string name="register_bt">sign up</string>
+    <string name="back_desc">back to the previous screen</string>
+</resources>

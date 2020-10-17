@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mypotplant">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 普通 允许联网 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 普通  wifi状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 申请 允许读取手机状态（必须） -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许写手机存储（必须） -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".maintenance.potshow.PotShowActivity"></activity>
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".maintenance.log.TypeSetActivity" />
+        <activity android:name=".person.EditInfoActivity" />
+        <activity android:name=".person.ModifyInfoActivity" />
+        <activity android:name=".person.Group.GroupActivity" />
+        <activity android:name=".person.PersonSetActivity" />
+        <activity android:name=".maintenance.dataCentre.DataCentreActivity" />
+        <activity android:name=".maintenance.log.EditPotLogActivity" />
+        <activity android:name=".maintenance.log.PotLogActivity" />
+        <activity android:name=".person.register.MobActivity" />
+        <activity android:name=".homepager.flowerRank.RankActivity" />
+        <activity android:name=".homepager.flower.FlowershowActivity" />
+        <activity android:name=".homepager.flower.Search_Activity" />
+        <activity android:name=".homepager.CardActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".person.login.LoginActivity" />
+        <activity android:name=".person.register.RegisterActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mypotplant.maintenance.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

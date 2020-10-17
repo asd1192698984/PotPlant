@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="flower_qual_word_size">18sp</dimen>
+    <dimen name="flower_qual_tv_marin">15dp</dimen>
+</resources>

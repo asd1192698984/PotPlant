@@ -1,0 +1,76 @@
+<!--private   int imaginID;            //花的图片资源ID-->
+<!--    private   String name;             //花名-->
+<!--    private String light_condition;  //光照条件-->
+<!--    private  String suit_humidity;    //适宜湿度-->
+<!--    private   String ph_value;         //ph值-->
+<!--    private  String suit_temp;        //适宜温度-->
+<!--    private   String no_suit_temp;    //不适温度-->
+<!--    private   String opening_word;     //开篇文字-->
+<!--    private   String light_request;  //光照需求-->
+<!--    private   ArrayList fertilization_times; //施肥次数-->
+<!--    private   ArrayList spray_times;     //喷雾次数-->
+<!--    private  ArrayList  other_oper;  //其他操作-->
+<!--    private  String recom_fertilizer;  //推荐肥料-->
+<!--    private   String  recom_soil;       //推荐土壤-->
+<!--    private String  recom_medic;      //推荐药剂-->
+<resources>
+    <string name="orchid_name">中国兰花</string>
+    <string name="orchid_light_condi">耐阴</string>
+    <string name="orchid_suit_humidity">50%-70%</string>
+    <string name="orchid_ph"></string>
+    <string name="orchid_suit_temp">16-24°</string>
+    <string name="orchid_no_suit_temp"> >30 | &#060; 5°</string>
+    <string name="orchid_opening_word"> 中国兰具有质朴文静、淡雅高洁的气质，在中国有一千余年的栽培历史。中国人历来把兰花看做是高洁典雅的象征，并与“梅、竹、菊”并列，合称“四君子”。</string>
+    <string name="orchid_light_request"> 兰花喜阴，应避免强光照射，但在环境光照不足，养兰场地阴暗，照度低于3000LUX的时候，我们也需要给兰花进行补光，兰花在培苗成长及硬化方面也需要进行补光。补光在春季和秋季进行，通常在早上和傍晚前2-3小时进行。</string>
+    <integer-array name="orchid_fertilization_times">
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="orchid_spray_times">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="orchid_other_oper">
+        <item>换盆、修剪</item>
+        <item>修剪</item>
+        <item>修剪</item>
+        <item>修剪</item>
+    </string-array>
+    <string name="orchid_recom_fertilizer">颗粒控释肥+兰花型液体肥</string>
+    <string name="orchid_recom_soil">不限</string>
+    <string name="orchid_recom_medic">不需要</string>
+     <!--     绿萝-->
+    <string name="scindapsus_name">绿萝</string>
+    <string name="scindapsus_light_condi">耐阴</string>
+    <string name="scindapsus_suit_humidity">大于80%</string>
+    <string name="scindapsus_ph"></string>
+    <string name="scindapsus_suit_temp">18-28°</string>
+    <string name="scindapsus_no_suit_temp">  &#060; 10°</string>
+    <string name="scindapsus_opening_word"> 绿萝，大型常绿藤本，生长于热带地区，常攀援生长在雨林的岩石和树干上，其缠绕性强，气根发达，可以水培种植。</string>
+    <string name="scindapsus_light_request"> 绿萝喜阴，适宜于在室内养殖。</string>
+    <integer-array name="scindapsus_fertilization_times">
+        <item>15</item>
+        <item>15</item>
+        <item>14</item>
+        <item>15</item>
+    </integer-array>
+    <integer-array name="scindapsus_spray_times">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="scindapsus_other_oper">
+        <item>换盆、修剪</item>
+        <item>修剪</item>
+        <item>修剪</item>
+        <item>修剪</item>
+    </string-array>
+    <string name="scindapsus_recom_fertilizer">蚯蚓粪+通用型肥料</string>
+    <string name="scindapsus_recom_soil">80%泥炭土+20%硅藻土</string>
+    <string name="scindapsus_recom_medic">护花神+恶霉灵</string>
+</resources>

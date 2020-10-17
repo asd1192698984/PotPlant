@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="pot_log_setting">
+        <item>
+            智能提醒
+        </item>
+        <item>
+            自动养护
+        </item>
+        <item>
+            无
+        </item>
+    </string-array>
+</resources>

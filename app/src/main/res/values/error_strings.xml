@@ -1,0 +1,5 @@
+<resources>
+   <string name="E10000">身份证解析错误</string>
+   <string name="E10001">用户名解析错误</string>
+   <string name="E10002">密码解析错误</string>
+</resources>

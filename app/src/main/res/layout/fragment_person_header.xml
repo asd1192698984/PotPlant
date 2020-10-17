@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp"
+    android:background="@color/deepskyblue"
+    tools:context=".MainActivity">
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/Cirv_head_portrait"
+       android:layout_width="70dp"
+       android:layout_height="70dp"
+       android:layout_marginLeft="40dp"
+       android:src="@drawable/non_login"
+       android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_person_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="130dp"
+        android:text="user_name:"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        />
+    <ImageButton
+        android:background="@color/smssdk_transparent"
+        android:id="@+id/setting"
+        android:src="@drawable/setting_filling"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+    <ImageButton
+        android:background="@color/smssdk_transparent"
+        android:id="@+id/addfriend"
+        android:src="@drawable/add_white"
+        android:layout_alignParentLeft="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp">
+    </ImageButton>
+
+</RelativeLayout>

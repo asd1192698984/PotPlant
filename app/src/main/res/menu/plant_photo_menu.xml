@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/photo_find_out" android:title="查看内容"></item>
+    <item android:id="@+id/photo_delete" android:title="删除照片"></item>
+</menu>
